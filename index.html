@@ -1,0 +1,80 @@
+<html lang="en">
+    <head>
+        <title>ตู้เกษตร</title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+        <link rel = "stylesheet" href = "bulma/css/bulma.css">
+        <link rel = "stylesheet" href = "style.css">
+        <link rel = "stylesheet" href = "style2.css">
+    </head>
+    <body style="font-family:Verdana;color:#aaaaaa;">
+        <section id ="container-menu">
+            <div id="logo-image"><php>&nbsp&nbsp</php>logo-ตู้เกษตร </div>
+                <ul class ="menu-right">
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="report.html"><li>REPORT</li></a>
+                </ul>
+            </div>
+        </section>
+        <style>
+        @media only screen and (max-width:620px) {
+            /* For mobile phones: */
+            .menu, .main, .right {
+             width:100%;
+            }
+        }
+        </style>
+    <div>
+        <div class="menu">
+            <div class="menuitem"> <a href="Main1.php" ><li>เปิด - ปิดน้ำ</li></a> </div><br>
+            <div class="menuitem"> <a href="Main2.php"  ><li>ตั้งเวลารดน้ำ</li></a> </div><br>
+            <div class="menuitem"> <a href="Main3.php"  ><li>เปิด - ปิดไฟ</li></a> </div><br>
+            <div class="menuitem"> <a href="report.html" ><li>อุณหภูมิและความชื้น</li></a> </div>
+        </div>
+        <div class="main">
+            <br><br><br>
+            
+            <br><br><br>
+            <!--<iframe height="200px" width="200px" name="iframe_a" frameborder="0" border="0" cellspacing="0"> 
+            </iframe> -->
+        </div>
+        <div class="right">
+        <div class="menuitem"> <a href="Main1.php" ><li>เปิด - ปิดน้ำ</li></a> </div><br>
+            <div class="menuitem"> <a href="Main2.php"  ><li>ตั้งเวลารดน้ำ</li></a> </div><br>
+            <div class="menuitem"> <a href="Main3.php"  ><li>เปิด - ปิดไฟ</li></a> </div><br>
+            <div class="menuitem"> <a href="report.html" ><li>อุณหภูมิและความชื้น</li></a> </div> 
+        </div> 
+    </div>
+    <div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;"> @ www.Kasagcondo.com</div>
+        <!-- <form action="" method = "GET">
+            <section id = "container-timer">
+                <div id = "header-time" position ="sticky" >ตั้งเวลา</div>
+                <div id = "menu-center">
+                <select name="hour" style = "font-size:20px">
+                    <?php //for($i=0;$i<=12;$i++) { ?>
+                        <option value="<?php // echo $i; ?>"><?php // echo $i; ?> นาที</option>
+                    <?php //} ?>
+                </select>
+                <select name="minute" style = "font-size:20px">
+                    <?php //for($i=0;$i<=59;$i++) { ?>
+                        <option value="<?php //echo $i; ?>"><?php //echo $i; ?></option>
+                    <?php //} ?>
+                </select>
+                </div>
+                <div class ="container-button"> 
+                <!--<php> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </php>    
+                    <input type="submit" name ="start" value = "START"> 
+                    <input type="button" name ="stop" value = "STOP ">
+                    <input type="submit" name ="onled" value = "ON"> <!-- ON / OFF LED -->
+                    <!--<input type="button" name ="offled" value = "OFF ">
+                    <input type="button" name = "onwater" value = "ON">
+                    <input type="button" name = "offwater" value = "OFF"> <!-- ON / OFF WATER --> 
+                
+              <!--  </div> -->
+      <!--  </form> -->
+    </body>
+</html>
